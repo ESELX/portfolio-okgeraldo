@@ -8,7 +8,8 @@ size(600,500);
 
 void draw() {
 diam =random(8, 80);
-background(255, 0, 34);
+background(mouseY,mouseX + 40, 0, 34);
 stroke (20);
-square(mouseX,mouseX,mouseY);
+rect(mouseY,mouseX - 20, 40, 10);
+circle(mouseX, 30, 30);
 }
