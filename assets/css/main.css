@@ -795,7 +795,7 @@ input, select, textarea {
 
 		input[type="checkbox"].color4 + label:before,
 		input[type="radio"].color4 + label:before {
-			color: #353865;
+			color: #ff5900;
 		}
 
 	input[type="checkbox"] + label:before {
