@@ -216,6 +216,7 @@ input, select, textarea {
 			z-index: -1;
 			background-attachment: fixed;
 			background-color: #e1e6e1;
+			background-image: url("../../images/overlay.png"), url("../../images/bg.jpg");
 			background-repeat: repeat, repeat-x;
 			background-size: 128px 128px, cover;
 		}
@@ -292,7 +293,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		"font-family:georgia,garamond,serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
@@ -314,12 +315,12 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ff3700;
-		font-weight: 800;
+		color: rgba(255, 255, 255, 0.875);
+		font-weight: 400;
 	}
 
 	em, i {
-		font-style: bold;
+		font-style: italic;
 	}
 
 	p {
@@ -371,7 +372,7 @@ input, select, textarea {
 			}
 
 	h2 {
-		font-size:3rem;
+		font-size: 1.75rem;
 		line-height: 1.2;
 	}
 
@@ -633,7 +634,7 @@ input, select, textarea {
 		-ms-appearance: none;
 		appearance: none;
 		background: transparent;
-		border: solid 2px rgba(255, 123, 0);
+		border: solid 2px rgba(255, 255, 255, 0.25);
 		border-radius: 0.25rem;
 		color: inherit;
 		display: block;
